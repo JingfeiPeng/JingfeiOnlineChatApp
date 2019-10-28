@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/JingfeiOnlineChatApp/precache-manifest.dd571403ba662625b557f9f58dcb4d44.js"
+  "/JingfeiOnlineChatApp/precache-manifest.aad20b944bdad07ba89bd4b0514cc6ba.js"
 );
 
 self.addEventListener('message', (event) => {

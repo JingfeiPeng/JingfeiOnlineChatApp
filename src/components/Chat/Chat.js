@@ -15,7 +15,7 @@ const Chat = ({location}) =>{
     const [room, setRoom] = useState('')
     const [message, setMessage] = useState('') // message to send from myself
     const [messages, setMessages] = useState([]) // all the messages from everyone
-    const ENDPOINT = "localhost:5000";
+    const ENDPOINT = "https://jingfei-chat-app.herokuapp.com";
 
     useEffect(()=>{
         // called when component renders

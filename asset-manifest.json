@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/JingfeiOnlineChatApp/static/css/main.b3bbce87.chunk.css",
-    "main.js": "/JingfeiOnlineChatApp/static/js/main.4b948b18.chunk.js",
-    "main.js.map": "/JingfeiOnlineChatApp/static/js/main.4b948b18.chunk.js.map",
-    "runtime-main.js": "/JingfeiOnlineChatApp/static/js/runtime-main.8d801c56.js",
-    "runtime-main.js.map": "/JingfeiOnlineChatApp/static/js/runtime-main.8d801c56.js.map",
-    "static/js/2.ce7f162f.chunk.js": "/JingfeiOnlineChatApp/static/js/2.ce7f162f.chunk.js",
-    "static/js/2.ce7f162f.chunk.js.map": "/JingfeiOnlineChatApp/static/js/2.ce7f162f.chunk.js.map",
-    "index.html": "/JingfeiOnlineChatApp/index.html",
-    "precache-manifest.1b4286d0ad492fcb604a7701d7e383cd.js": "/JingfeiOnlineChatApp/precache-manifest.1b4286d0ad492fcb604a7701d7e383cd.js",
-    "service-worker.js": "/JingfeiOnlineChatApp/service-worker.js",
-    "static/css/main.b3bbce87.chunk.css.map": "/JingfeiOnlineChatApp/static/css/main.b3bbce87.chunk.css.map"
+    "main.css": "./static/css/main.b3bbce87.chunk.css",
+    "main.js": "./static/js/main.14ded16e.chunk.js",
+    "main.js.map": "./static/js/main.14ded16e.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.274ab6a7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.274ab6a7.js.map",
+    "static/js/2.5562c5db.chunk.js": "./static/js/2.5562c5db.chunk.js",
+    "static/js/2.5562c5db.chunk.js.map": "./static/js/2.5562c5db.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.8e3ef47039fa629fcdf1ca86701feeb9.js": "./precache-manifest.8e3ef47039fa629fcdf1ca86701feeb9.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.b3bbce87.chunk.css.map": "./static/css/main.b3bbce87.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d801c56.js",
-    "static/js/2.ce7f162f.chunk.js",
+    "static/js/runtime-main.274ab6a7.js",
+    "static/js/2.5562c5db.chunk.js",
     "static/css/main.b3bbce87.chunk.css",
-    "static/js/main.4b948b18.chunk.js"
+    "static/js/main.14ded16e.chunk.js"
   ]
 }

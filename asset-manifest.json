@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/JingfeiOnlineChatApp/static/css/main.bd7b48e3.chunk.css",
-    "main.js": "/JingfeiOnlineChatApp/static/js/main.b7a5b7d6.chunk.js",
-    "main.js.map": "/JingfeiOnlineChatApp/static/js/main.b7a5b7d6.chunk.js.map",
+    "main.js": "/JingfeiOnlineChatApp/static/js/main.5a6c0011.chunk.js",
+    "main.js.map": "/JingfeiOnlineChatApp/static/js/main.5a6c0011.chunk.js.map",
     "runtime-main.js": "/JingfeiOnlineChatApp/static/js/runtime-main.8d801c56.js",
     "runtime-main.js.map": "/JingfeiOnlineChatApp/static/js/runtime-main.8d801c56.js.map",
-    "static/js/2.6a78e271.chunk.js": "/JingfeiOnlineChatApp/static/js/2.6a78e271.chunk.js",
-    "static/js/2.6a78e271.chunk.js.map": "/JingfeiOnlineChatApp/static/js/2.6a78e271.chunk.js.map",
+    "static/js/2.c44160b2.chunk.js": "/JingfeiOnlineChatApp/static/js/2.c44160b2.chunk.js",
+    "static/js/2.c44160b2.chunk.js.map": "/JingfeiOnlineChatApp/static/js/2.c44160b2.chunk.js.map",
     "index.html": "/JingfeiOnlineChatApp/index.html",
-    "precache-manifest.aad20b944bdad07ba89bd4b0514cc6ba.js": "/JingfeiOnlineChatApp/precache-manifest.aad20b944bdad07ba89bd4b0514cc6ba.js",
+    "precache-manifest.3ee9779f4ac7765264c918d0ba7ad27d.js": "/JingfeiOnlineChatApp/precache-manifest.3ee9779f4ac7765264c918d0ba7ad27d.js",
     "service-worker.js": "/JingfeiOnlineChatApp/service-worker.js",
     "static/css/main.bd7b48e3.chunk.css.map": "/JingfeiOnlineChatApp/static/css/main.bd7b48e3.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.8d801c56.js",
-    "static/js/2.6a78e271.chunk.js",
+    "static/js/2.c44160b2.chunk.js",
     "static/css/main.bd7b48e3.chunk.css",
-    "static/js/main.b7a5b7d6.chunk.js"
+    "static/js/main.5a6c0011.chunk.js"
   ]
 }

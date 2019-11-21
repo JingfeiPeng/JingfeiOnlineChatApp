@@ -5,6 +5,7 @@ import io from 'socket.io-client'
 import InfoBar from '../InfoBar/InfoBar'
 import UserInput from '../UserInput/UserInput'
 import Messages from '../Messages/Messages'
+import ShowChatRoomMembers from '../ShowChatRoomMembers/ShowChatRoomMembers'
 
 import './Chat.css'
 
@@ -15,6 +16,7 @@ const Chat = ({location}) =>{
     const [room, setRoom] = useState('')
     const [message, setMessage] = useState('') // message to send from myself
     const [messages, setMessages] = useState([]) // all the messages from everyone
+    const [users, setUsers] = useState([]);
     const ENDPOINT = "https://jingfei-chat-app.herokuapp.com";
 
     useEffect(()=>{
@@ -24,8 +26,13 @@ const Chat = ({location}) =>{
         setRoom(room)
 
         socket = io(ENDPOINT)
-        socket.emit('join', { name, room}, ()=>{ // callback specified in backend
+        socket.emit('join', { name, room}, (res)=>{ // callback specified in backend
             // error catching
+
+            if (res && res.users) {
+                console.log("got user data")
+                setUsers(users)
+            };
         })
 
         return ()=>{ // function called when component unmount
@@ -41,6 +48,7 @@ const Chat = ({location}) =>{
             setMessages([...messages, message]);
         })
     }, [messages]) // run this use effect only when messages changes
+    
 
     // function to send messages
     const sendMessage = (event) =>{
@@ -52,7 +60,7 @@ const Chat = ({location}) =>{
         }
     }
 
-    console.log(message, messages)
+    // console.log(message, messages)
 
     return (
         <div className="outerContainer">
@@ -60,8 +68,10 @@ const Chat = ({location}) =>{
                 <InfoBar room={room}/>
                 <Messages messages={messages} name={name} />
                 <UserInput message={message} setMessage={setMessage} sendMessage={sendMessage} />
-                {/* <TextContainer users={users} /> */}
             </div>
+            {/* <div className="showMembers">
+                <ShowChatRoomMembers users={users} />
+            </div> */}
         </div>
     )
 }
